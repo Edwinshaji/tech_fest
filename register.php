@@ -133,7 +133,8 @@
         VALUES ('$name','$college','$event','$date')";
 
         if ($conn->query($sql) === TRUE) {
-            echo "<h2> Registration Completed Successfuly</h2>";
+            echo "<script>alert('Registration Completed Successfuly!'); window.location.href='register.php';</script>";
+
         } else {
             echo "Error: " . $sql . "<br>" . $conn->error;
         }
