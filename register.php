@@ -107,7 +107,7 @@
         <center><a href="index.php">home</a></center>
     </div>
     <br>
-    
+
 
     <?php
     $servername = "localhost";
@@ -130,7 +130,7 @@
         $date = $_POST['event_date'];
 
         $sql = "INSERT INTO registration(student_name,college,event_,event_date)
-        VALUES ('$name','$college','$event','$date');";
+        VALUES ('$name','$college','$event','$date')";
 
         if ($conn->query($sql) === TRUE) {
             echo "<h2> Registration Completed Successfuly</h2>";

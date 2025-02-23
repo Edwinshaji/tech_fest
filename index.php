@@ -142,6 +142,7 @@
             <a href="#events">Events</a>
             <a href="register.php">Registration</a>
             <a href="#contact">Contact</a>
+            <a href="admin_login.php">admin</a>
         </nav>
     </header>
     <div class="banner" id="home">
